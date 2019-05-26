@@ -1,0 +1,8 @@
+[Unit]
+
+
+[Service]
+ExecStart=/usr/local/sbin/verify-remote_serv
+
+[Install]
+WantedBy=default.target
